@@ -1,6 +1,54 @@
-div {
-	width:
-	border:
-	padding:
-	margin:
+.divabout {
+  height: 40px;
+  width: 230px;
+	margin: auto;
+  padding: 5px;
+  text-align: Center;
+  border: 5px solid black;
+}
+
+.divcurriculum {
+  height: 80px;
+  width: 250px;
+  margin: auto;
+  padding: 5px;
+  text-align: Center;
+  border: 5px solid black;
+}
+
+.divfind {
+  height: 80px;
+  width: 180px;
+  margin: auto;
+  padding: 5px;
+  text-align: Center;
+  border: 5px solid black;
+}
+
+.divapply {
+  height: 40px;
+  width: 230px;
+  margin: auto;
+  padding: 5px;
+  text-align: Center;
+  border: 5px solid black;
+}
+
+
+
+måste få width elementet att centerera innehålet
+
+.bordertitel {
+  border:5px solid black;
+}
+
+.center {
+	text-align: center;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
