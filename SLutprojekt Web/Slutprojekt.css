@@ -1,12 +1,15 @@
-div {
-  height: 60px;
-  width: 215px; 
-	border: 5px solid black;
+.divtitel {
+  height: auto;
+  width: auto;
 	margin: auto;
   padding: 5px;
 }
 
-måste få width elementet att centerera innehålet
+
+
+.bordertitel {
+  border:5px solid black;
+}
 
 .center {
 	text-align: center;
@@ -17,4 +20,58 @@ måste få width elementet att centerera innehålet
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+}
+
+.List {
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #f7f5f5;
+ }
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+
+ul > li {
+    background-color: #e8f5e9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+}
+.Border {
+  border-style:solid;
+  border-width:medium;
+  border-radius:8px;
+  border-color:black;
+}
+
+.Bordernoright {
+  border-style:solid;
+  border-width:medium;
+  border-right-style:none;
+}
+
+.Bordernosides {
+  border-style:solid;
+  border-width:medium;
+  border-right-style:none;
+  border-left-style:none;
+  
+}
+
+.Bordernoleft {
+  border-style:solid;
+  border-width:medium;
+  border-left-style:none;
 }
