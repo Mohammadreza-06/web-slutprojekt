@@ -36,7 +36,63 @@
 
 div {
   width:px; height:px;
-  border: px solid black;
+  border: 3px solid black;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
 }
+
+.size {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.deladdiv{
+  width:700px;
+}
+
+.right {
+  float:right;
+}
+
+.left{
+float:left;
+}
+
+ .borderlistan {
+  border: 3px solid black;
+  padding: 20px;
+  padding-top:5px;
+  margin: 10px;
+  width:500px;
+ }
+
+ .borderbild{
+  width:600px;
+ }
+
+ .circle{
+  list-style-type:circle;
+ }
+
+ .borderlistan2 {
+  border: 3px solid black;
+  padding: 20px;
+  padding-top:5px;
+  margin: 10px;
+  width:200px;
+ }
+
+ .borderlistan3 {
+  border: 3px solid black;
+  padding: 20px;
+  padding-top:5px;
+  margin: 10px;
+  width:130px;
+ }
+
+ .overflow{
+  overflow:auto;
+ }
