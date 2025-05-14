@@ -58,41 +58,96 @@ div {
 }
 
 .left{
-float:left;
+  float:left;
 }
 
- .borderlistan {
+.borderlistan {
   border: 3px solid black;
   padding: 20px;
   padding-top:5px;
   margin: 10px;
   width:500px;
- }
+}
 
- .borderbild{
+.borderbild{
   width:600px;
- }
+}
 
- .circle{
+.circle{
   list-style-type:circle;
- }
+}
 
- .borderlistan2 {
+.borderlistan2 {
   border: 3px solid black;
   padding: 20px;
   padding-top:5px;
   margin: 10px;
   width:200px;
- }
+}
 
- .borderlistan3 {
+.borderlistan3 {
   border: 3px solid black;
   padding: 20px;
   padding-top:5px;
   margin: 10px;
   width:130px;
- }
+}
 
- .overflow{
+.overflow{
   overflow:auto;
- }
+}
+
+.findus{
+  width:550px;
+}
+
+label{
+ margin-bottom: 5px;
+ font-weight: bold;
+ color: #555;
+}
+
+
+input[type="text"]{
+ padding: 10px;
+ margin-bottom: 15px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ font-size: 14px;
+}
+
+input[type="text"]:focus{
+ border-color: #4CAF50;
+}
+
+.radio-group{
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-weight: normal;
+  color: #333;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+select:focus {
+  border-color: #4CAF50;
+}
+
+.label-bold {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.radio-size {
+  width:280px;
+}
