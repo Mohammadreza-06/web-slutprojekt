@@ -1,5 +1,5 @@
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .body {
@@ -7,38 +7,39 @@
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
 }
 
 
 .navbar {
   display: flex;
   justify-content: center;
-  padding:;
-  margin: 20px;
+  gap: 20px;
+  padding: 15px;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
   list-style-type: none;
 }
 
-.navbar li {
-  margin: 15px;
-}
-
 .navbar a {
-  padding: 10px;
-  border: 2px solid ;
-  border-radius: 8px;
-  border-color: black;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
 }
 
 .navbar a:hover {
   background-color: black;
+  color: white;
 }
 
 div {
-  width:px; height:px;
-  border: 3px solid black;
-  padding: 10px;
-  margin: 10px;
+  border: 3px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .size {
@@ -50,7 +51,8 @@ div {
 }
 
 .deladdiv{
-  width:700px;
+  width:100%;
+  max-width:700px;
 }
 
 .right {
@@ -61,16 +63,26 @@ div {
   float:left;
 }
 
+.borderlistan,
+.borderlistan2,
+.borderlistan3 {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
 .borderlistan {
-  border: 3px solid black;
-  padding: 20px;
-  padding-top:5px;
-  margin: 10px;
   width:500px;
 }
 
 .borderbild{
-  width:600px;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  border-radius: 8px;
 }
 
 .circle{
@@ -78,18 +90,10 @@ div {
 }
 
 .borderlistan2 {
-  border: 3px solid black;
-  padding: 20px;
-  padding-top:5px;
-  margin: 10px;
   width:200px;
 }
 
 .borderlistan3 {
-  border: 3px solid black;
-  padding: 20px;
-  padding-top:5px;
-  margin: 10px;
   width:130px;
 }
 
@@ -98,7 +102,8 @@ div {
 }
 
 .findus{
-  width:550px;
+  width:100%;
+  max-width:500px;
 }
 
 label{
@@ -112,7 +117,7 @@ input[type="text"]{
  padding: 10px;
  margin-bottom: 15px;
  border: 1px solid #ccc;
- border-radius: 4px;
+ border-radius: 6px;
  font-size: 14px;
 }
 
@@ -151,3 +156,4 @@ select:focus {
 .radio-size {
   width:280px;
 }
+
