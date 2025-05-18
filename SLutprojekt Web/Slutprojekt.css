@@ -36,10 +36,14 @@
 div {
   border: 3px solid #ddd;
   padding: 20px;
-  margin: 20px auto;
+  margin: 20px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.auto-margin{
+    margin: auto;
 }
 
 .size {
@@ -69,20 +73,13 @@ div {
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 15px;
-  margin: 15px auto;
+  margin: 15px;
   background-color: #fafafa;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
 }
 
 .borderlistan {
   width:500px;
-}
-
-.borderbild{
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  border-radius: 8px;
 }
 
 .circle{
@@ -157,3 +154,43 @@ select:focus {
   width:280px;
 }
 
+.logo-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-center{
+    justify-content: center;
+}
+
+.logo-img {
+  height: 60px;
+}
+
+.border-img{
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 160px;
+  display: block;
+  border-radius: 8px;
+}
+
+.video {
+  margin: auto;
+  max-width: 600px;
+}
+
+.preview {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.container iframe {
+  width: 320px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
