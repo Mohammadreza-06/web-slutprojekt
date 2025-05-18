@@ -18,34 +18,34 @@
 
 
 <label for="Y">personnummer*:</label>
-<input type="text" id="Y" placeholder="ååååmmdd-xxxx">
+<input type="text" id="pnr" placeholder="ååååmmdd-xxxx" required>
 <hr>
 
 <label for="Y">Förnamn*:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="fnman" placeholder="" required>
 <br><br>
 <label for="Y">Efternamn*:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="enamn" placeholder="" required>
 <hr>
 
 <label for="Y">c/o:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="c/o" placeholder="">
 <br><br>
 <label for="Y">Adress*:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="adress" placeholder="" required>
 <br><br>
 <label for="Y">Postnummer*:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="ponr" placeholder="" required>
 <br><br>
 <label for="Y">Ort*:</label>
-<input type="text" id="Y" placeholder="">
+<input type="text" id="ort" placeholder="" required>
 <hr>
 
 <label for="Y">Telefon:</label>
-<input type="text" id="Y" placeholder="123-456-78">
+<input type="text" id="telefon" placeholder="123-456-78">
 <br><br>
 <label for="Y">E-post:</label>
-<input type="text" id="Y" placeholder="xxxxx@gmail.com">
+<input type="text" id="e-post" placeholder="xxxxx@gmail.com">
 <br><br>
 
 <label class="label-bold">Hur vill du bli kontaktad?</label>
@@ -64,9 +64,16 @@
   		<option value="danmark">Danmark</option>
   		<option value="annat">Annat</option>
 	</select>
+
+<br>
+
+<label for="other-country">Om du valde "Annat", ange vilket land:</label>
+<input type="text" id="other-country" name="other-country" placeholder="Ange land">
+
 <hr>
 
 
-<a href="slutprojekt.html">Huvudsidan</a>
+<a href="slutprojekt.html" class="back">Tillbaka till indie quest</a>
+<a href="Find us.html" class="back right">Här kan du hitta oss</a>
 </body>
 </html>

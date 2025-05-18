@@ -69,7 +69,8 @@ div {
 
 .borderlistan,
 .borderlistan2,
-.borderlistan3 {
+.borderlistan3,
+.borderlistan4 {
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 15px;
@@ -94,13 +95,17 @@ div {
   width:130px;
 }
 
+.borderlistan4{
+  width:160px;
+}
+
 .overflow{
   overflow:auto;
 }
 
 .findus{
   width:100%;
-  max-width:500px;
+  max-width:490px;
 }
 
 label{
@@ -193,4 +198,28 @@ select:focus {
   height: 200px;
   border: 2px solid black;
   border-radius: 8px;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.back {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #c9c9c9;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.back:hover {
+  background-color: #6fb1c7;
 }
